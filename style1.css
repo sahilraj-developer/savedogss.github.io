@@ -1,0 +1,519 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+nav{
+	background-color: rgb(29, 13, 64);
+	padding: 20px;
+
+
+}
+span{
+	text-decoration: none;
+	padding: 10px;
+	font-size: 24px;
+	border-radius: 20px;
+	background-color: black;
+}
+#logo{
+	width: 100px; 
+	cursor: pointer;
+
+}
+
+
+#home1
+{
+	text-align: center;
+	padding: 80px;
+	font-size: 20px;
+	background-color: lightgrey;
+	background-image: url(image/w1.jpg);
+	color: white;
+}
+.howtosavedogs{
+	text-align: center;
+	padding: 80px;
+	font-size: 20px;
+	
+}
+
+
+footer{
+	background-color: black;
+	height: 230px;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+
+}
+#icon{
+	font-size: 20px;
+
+}
+i{
+	font-size: 20px;
+	padding: 20px;
+	
+}
+.home2{
+	padding: 20px;
+	margin: 20px;
+	font-size: 28px;
+}
+.home3{
+		padding: 20px;
+	margin: 20px;
+	font-size: 28px;
+}
+.home4{
+		padding: 20px;
+	margin: 20px;
+	font-size: 28px;
+}
+.home5{
+		padding: 20px;
+	margin: 20px;
+	font-size: 28px;
+}
+
+
+
+
+
+/*story.css */
+.story{
+	background-color: lightseagreen;
+	padding: 40px;
+	margin: 35px;
+	text-align: center;
+	box-shadow: 20px ;
+	border-radius: 14px;
+	box-shadow: 8px 8px 2px grey;
+	cursor: pointer;
+	box-sizing: 80px;
+}
+.storyheader{
+	text-align: center;
+
+}
+
+.h1{
+	font-size:32px;
+	text-decoration: underline;
+}
+.h3{margin: 0 10px 0 10px;
+	font-size:22px;
+	text-decoration: underline;
+
+}
+.p{
+	margin: 0 10px 0 10px;
+	padding: 20px;
+	font-size: 18px;
+}
+
+
+
+
+/*Knowledge*/
+.knowledge{
+	padding: 20px;
+	text-align: center;
+}
+.storydangerous{
+	text-align: center;
+	padding: 10px;
+	margin: 15px;
+}
+#ol{
+	padding: 30px;
+
+
+}
+h2{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 32px;
+}
+#ol>p{
+	font-size: 26px;
+	padding: 24px 0 24px 0;
+	margin:18px 0 18px 0;
+}
+
+/*contact*/
+form{
+	padding: 10px 40px 10px 40px;
+	line-height:30px ;
+
+
+}
+.form{
+	background-image: url(image/1.jpg);
+	height: 800px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-style: bold;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
+}
+button{
+	border-radius: 18px;
+	padding: 10px;
+
+}
+
+#formbox{
+	border-width: 10px;
+	border-color: red;
+}
+
+
+
+@media screen and (max-width: 600px){
+	p{
+		font-size: 14px;
+	}
+	h1{
+		font-size: 19px;
+	}
+	h2{
+		font-size: 17px;
+	}
+	h4{
+		font-size: 17px;
+	}
+	.home2{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home3{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home4{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home5{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home6
+	{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home2 img{
+		width: 200px;
+		height: 180px;
+
+
+	}
+	.home3 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home4 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home5 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home6{
+		width: 200px;
+		height: 180px;
+
+	}
+	footer{
+		text-align: center;
+		font-size: 10px;
+		height: 400px;
+	}
+
+
+}
+
+
+
+
+@media screen and (min-width: 600px){
+	p{
+		font-size: 14px;
+	}
+	h1{
+		font-size: 19px;
+	}
+	h2{
+		font-size: 17px;
+	}
+	h4{
+		font-size: 17px;
+	}
+	.home2{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home3{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home4{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home5{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home6
+	{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home2 img{
+		width: 200px;
+		height: 180px;
+
+
+	}
+	.home3 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home4 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home5 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home6{
+		width: 200px;
+		height: 180px;
+
+	}
+	footer{
+		text-align: center;
+		font-size: 10px;
+		height: 400px;
+	}
+
+
+}
+
+
+@media screen and (min-width: 768px){
+
+	p{
+		font-size: 14px;
+	}
+	h1{
+		font-size: 19px;
+	}
+	h2{
+		font-size: 17px;
+	}
+	h4{
+		font-size: 17px;
+	}
+	.home2{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home3{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home4{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home5{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home6
+	{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home2 img{
+		width: 200px;
+		height: 180px;
+
+
+	}
+	.home3 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home4 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home5 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home6{
+		width: 200px;
+		height: 180px;
+
+	}
+	footer{
+		text-align: center;
+		font-size: 10px;
+		height: 400px;
+	}
+
+
+}
+
+
+
+@media screen and (max-width: 992px){
+
+	p{
+		font-size: 14px;
+	}
+	h1{
+		font-size: 19px;
+	}
+	h2{
+		font-size: 17px;
+	}
+	h4{
+		font-size: 17px;
+	}
+	.home2{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home3{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home4{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home5{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home6
+	{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home2 img{
+		width: 200px;
+		height: 180px;
+
+
+	}
+	.home3 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home4 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home5 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home6{
+		width: 200px;
+		height: 180px;
+
+	}
+	footer{
+		text-align: center;
+		font-size: 10px;
+		height: 400px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 1200px){
+
+
+p{
+		font-size: 14px;
+	}
+	h1{
+		font-size: 19px;
+	}
+	h2{
+		font-size: 17px;
+	}
+	h4{
+		font-size: 17px;
+	}
+	.home2{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home3{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home4{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home5{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home6
+	{
+		font-size: 17px;
+		text-align: left;
+	}
+	.home2 img{
+		width: 200px;
+		height: 180px;
+
+
+	}
+	.home3 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home4 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home5 img{
+		width: 200px;
+		height: 180px;
+	}
+	.home6{
+		width: 200px;
+		height: 180px;
+
+	}
+	footer{
+		text-align: center;
+		font-size: 10px;
+		height: 400px;
+	}
+
+}
